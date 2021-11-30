@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextflix</title>
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/respon.css">
+    <link rel="shortcut icon" href="./asset/img/logo.png" type="image/x-icon">
+</head>
+<body>          
+    <div class="line-percent"></div>
+    <div class="main grid">
+        <div class="modal-detail">
+            <div class="modal-detail-container">
+                <div class="modal-movie-detail" >
+                    <div class="modal-movie-detail-backdrop" style="background-image: url();">
+                        <div class="modal-movie-detail-backdrop-overlay"></div>
+                    </div>
+               
+                    <iframe  class="TralerIframe" src=""  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe> 
+                </div>
+                <iframe class="MovieIframe" allowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true"  src="" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="modal">
+            <!-- 
+                
+
+                <h3 class="heading-modal">Ready to start your free month</h3>
+                <div class="modal-container">
+                    <div class="modal-left">
+                        <div class="modal-name">Create your account</div>
+                        <div class="modal-left-body">
+                            <input type="text" required placeholder="Email Address" class="Email-input">
+                            <input autofocus type="password" required placeholder="Choose a password(4-60 characters)"class="Pass-input">
+                            <button type="submit" class=" resgis-modal-btn btn-submit">Register</button>
+                            <button type="submit" class="visible-on-mobile resgis-modal-btn">Register with Facebook</button>
+
+                        </div>
+                    </div>
+
+                    <div class="modal-right">
+                        <div class="modal-name">Or create your account with Facebook</div>
+                        <div class="modal-right-notice">We'll never post to Facebook without your permission</div>
+                        <div class="modal-right-contend">
+                            We will access Facebook to get and use your email address, friend list, interests, like and public profile picture, user ID, age range, gender, networks, language, country
+                            and your other public info. See out Privacy Policy
+                        </div>
+                        <button type="submit" class="resgis-modal-btn">Register with Facebook</button>
+
+                    </div>
+
+                </div>
+                <span>We may contact you about the Nextflix service. See out Privacy Policy</span>
+            </div> -->
+            <div class="form sign-up">
+                <span class="switch sign-up">Sign-in</span>
+                <div class="close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <h1>Sign-up</h1>
+                <div class="input-wrap">
+                    <input type="text" class="input email" placeholder="Enter your email">
+                    <span class="input-label">Email</span>
+                    <span class="error-mess"></span>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" class="input username" placeholder="Enter your username">
+                    <span class="input-label">Username</span>
+                    <span class="error-mess"></span>
+        
+                </div>
+                <div class="input-wrap">
+                    <input type="text" class="input pass" placeholder="Enter your password">
+                    <span class="input-label">Password</span>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" class="input confirm-pass" placeholder="Re-enter the password">
+                    <span class="input-label"> Confirm password</span>
+                    <span class="error-mess"></span>
+        
+                </div>
+                <button class="signup-btn">Sign up</button>
+                <div class="line"></div>
+                <div class="social-wrap">
+                    <a href="https://www.facebook.com" class="icon-wrap fb">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com " class="icon-wrap ins">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="icon-wrap tw" >
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="form sign-in hide">
+                <span class="switch sign-in">Sign-up</span>
+
+                <div class="sign-in close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <h1>Sign-in</h1>
+                <div class="input-wrap">
+                    <input type="text" class="sign-in input email" placeholder="Enter your email">
+                    <span class="input-label">Email</span>
+                    <span class="error-mess"></span>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" class="sign-in input pass" placeholder="Enter your password">
+                    <span class="input-label">Password</span>
+                    <span class="error-mess"></span>
+                </div>
+                <button class="sign-in signup-btn">Sign in</button>
+            </div>
+        </div>
+
+        <header>
+
+                
+                
+                    <i class="header-navigate-btn fas fa-bars"></i>
+   
+                 <input type="checkbox" name="" id="Check-btn">
+                <a href="#" class="header-logo">
+                    <img src="./asset/img/logo.png" alt="" class="header-logo-img">
+                </a>
+                <ul class="header-navigate ">
+                            <a href="#" >
+                                <li class="nav-item text-hover">Home</li>    
+                                <i class="close-btn fas fa-times"></i>
+                            </a>    
+
+
+                            <a href="#TV">
+                                
+                            <li class="nav-item text-hover">TV Shows</li>
+                           
+                            </a>
+
+                        <a href="#Movie">
+
+                            <li class="nav-item text-hover">Movies</li>
+                        </a>
+                        <a href="#Trend">
+
+                            <li class="nav-item text-hover">Trending</li>
+                        </a>
+                        <!-- <a href="#">
+
+                            <li class="nav-item text-hover">My List
+
+                            </li>
+                        </a> -->
+                </ul>
+                <ul class="nav-left">
+                    <i class="search-btn text-hover fas fa-search">
+                       <input type="text"  placeholder="Search Any Thing.....">
+
+                    </i>
+                    <i class="nofitication-btn fas fa-bell text-hover"></i>
+                    <div class="user-profile">
+                        <ul class="user-profile-subnav">
+                            <li class="user-profile-subnab-item login-btn">Login</li>
+                            <li class="user-profile-subnab-item">My Favorite</li>
+                            <li class="user-profile-subnab-item">Help ?</li>
+                        </ul>
+                    </div>
+                </ul>
+                
+        </header>
+
+        
+
+        <section class="Container">
+
+            <!-- Section-introduce begin -->
+
+            <section class="introduce ">
+                <div class="slider-item l-12  item-1" style="background-image: url(./asset/img/main-poster.jpg);">
+                    <div class="slider-item-contend">
+                        <div class="slider-item-movie-name">Fast & Furious 6</div>
+                        <div class="slider-item-movie-overview">Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.</div>
+                        <div class="slider-item-option">
+                            <div class="slider-item-btn">
+                                <i class="fas fa-play"></i>
+                                Play Now!
+                            </div>
+                            <div class="slider-item-btn">
+                                <i class="fas fa-plus"></i>
+                                Add To Watchlist.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="click-it"></div>
+            </section>
+
+            <!-- Section-introduce end -->
+
+            <!-- Section-trending begin -->
+
+            <section id="Trend" class="trending">
+                <div class="section-trending-heading">Trending Week</div>
+                <ul class="section-trending-list row">
+                    <li class="section-trending-item col l-2 m-2 c-2">
+                            <div class="section-trending-img" style="background-image: url(./asset/img/spuid.jpg);"></div>
+                            <div class="overview-contend"><i class="fas fa-play-circle"></i></div>
+                    </li> 
+                  
+                        
+                    
+                </ul>
+            </section>
+
+            <!-- Section-trending begin -->
+
+            <!-- Section-tag-genres -->
+            <section class="geners_movie">
+            </section>
+
+            <!-- List_movie_by_genres -->
+            
+            <div id="Movie" class="gener-tag-list row">
+                
+                <!-- <div class="gener-tag-list-item col l-2 m-2 c-2" >
+                   
+                    <div class="gener-tag-list-item-img" style="background-image: url(https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg);">
+                        <div class="gener-tag-list-item-action">
+                            <i class="fas fa-play-circle"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="gener-tag-list-item-contend">
+                        <div class="gener-tag-list-item-name">Squid Game</div>
+                        <div class="gener-tag-list-item-ranking">
+                            <div class="gener-tag-list-item-year">2019</div>
+                            <div class="gener-tag-list-item-number-ranking">
+                                <i class="fas fa-heart"></i>
+                                23
+                            </div>
+
+                            <div class="gener-tag-list-item-star-ranking">
+                                <i class="fas fa-star" "></i>
+                                190
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+            </div>
+            <div class="gener-pagination">
+                <i class="prevbtn fas fa-chevron-left"></i>
+                <div class="num-current">1</div>
+                <i class="nextbtn fas fa-chevron-right"></i>
+            </div>
+            <!-- TV_show -->
+            <section id="TV" class="TV-show-container">
+                <div class="TV-show-heading">TV Show</div>
+                <div class="TV-show-list">
+                    
+                    <!-- <div class="TV-show-item col l-2">
+                        <div class="TV-show-item-action">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="TV-show-item-img" style="background-image: url(https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg);"></div>
+                    </div> -->
+                  
+
+                </div>
+               
+            </section>
+
+
+        </section>
+        
+        <div class="divider">
+
+        </div>
+
+        <footer class="main-footer ">
+            <div class="footer-list ">
+                <a href="#" class="footer-item">FAQ</a>
+                <a href="#" class="footer-item">Investor Relations</a>
+                <a href="#" class="footer-item">Ways to Watch</a>
+                <a href="#" class="footer-item">Corporate Information</a>
+                <a href="#" class="footer-item">Nextflix Originals</a>
+            </div>
+            <div class="footer-list ">
+                <a href="#" class="footer-item">Help Centre</a>
+                <a href="#" class="footer-item">Jobs</a>
+                <a href="#" class="footer-item">Terms of Use</a>
+                <a href="#" class="footer-item">Contact Us</a>
+            </div>
+            <div class="footer-list ">
+                <a href="#" class="footer-item">Account</a>
+                <a href="#" class="footer-item">Redeem Gift Cards</a>
+                <a href="#" class="footer-item">Privacy</a>
+                <a href="#" class="footer-item">Speed Test</a>
+            </div>
+            <div class="footer-list ">
+                <a href="#" class="footer-item">Media Centre</a>
+                <a href="#" class="footer-item">Buy Gift Card</a>
+                <a href="#" class="footer-item">Cookies Preferences</a>
+                <a href="#" class="footer-item">Legal Notice</a>
+                <a href="#" class="footer-item">Nextflix Originals</a>
+            </div>
+        </footer>
+      
+
+    </div>
+    <script src="./asset/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* Tablet and mobile */
+
+@media (max-width:1023px){
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 2px;
+      }
+    .Container .introduce .slider-item{
+        background-size: cover;
+        /* width: 100%; */
+    }
+    .trending{
+        height: unset;
+    }
+}
+
+
+        /* mobile */
+@media (max-width:739px){
+    a{
+        display: block;
+    }
+
+    .modal-container .modal-right{
+        display: none;
+    }
+    .visible-on-mobile{
+        display: block;
+    }
+    .modal-container .modal-left input{
+        margin: 10px 0;
+        
+    }
+    .modal-container .modal-left .resgis-modal-btn{
+        width: 100%;
+        font-size: 2.5rem !important;
+        
+    }
+    header{
+        /* display: block; */
+    }
+    header .header-logo img {
+        display: none;  
+    }
+    header .header-navigate{
+        display: block;
+        padding-left: 10px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        box-shadow: 1px 1px 3px #ccc;
+    }
+
+    header .header-navigate a:first-child{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+        width: 100%;
+    }
+    header .header-navigate a:first-child .nav-item{
+        flex: 1;
+    }
+    header .header-navigate .close-btn{
+        display: block;
+        padding: 20px 30px 20px 40px;
+        font-size: 3rem;
+        color: #fff;
+    }
+    header .header-navigate-btn{
+        display: block;
+        font-size: 4.5rem;
+
+    }
+    header .nofitication-btn{
+        display: none;
+    }
+    #Check-btn{
+        display: none;
+    }
+    .header-navigate.active{
+        animation: SlideIn ease-in-out 400ms forwards;
+    }
+    @keyframes SlideIn {
+        from{
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to{
+            ;
+            transform: translateX(0);
+            opacity: 1;
+            display:block
+        }
+    }
+
+    header .nav-left{
+        font-weight: 500;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 150px;
+        
+        /* flex: 1; */
+    }
+
+    header .nav-left input{
+        width: 90%;
+    }
+    .Container .introduce .slider-item .slider-item-contend .slider-item-movie-overview{
+        width: unset;
+    }
+    
+    .Container .geners_movie{
+        width: 100vw;
+        height: 30px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: unset;
+    }
+    .main-footer{
+        padding: 5px 20px;
+        /* align-items: unset; */
+        /* margin-bottom: 20px; */
+        flex-wrap: wrap;
+    }
+    .main-footer .footer-list{
+        font-size: 2.5rem;
+        flex-basis: 50%;
+        margin: 5px 0;
+        padding: 0 20px;
+    }
+
+    .main-footer .footer-list .footer-item{
+        margin: 5px 0;
+    }
+}
